@@ -50,6 +50,74 @@ a {
   object-fit: contain;
 }
 
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 3rem 10rem;
+  gap: 3rem;
+}
+
+.main-section .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-section .left img {
+  height: 25rem;
+  object-fit: contain;
+}
+
+.bottom-stuff {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: row;
+  padding: 1rem 0;
+  gap: 3rem;
+}
+
+.bottom-stuff h1 {
+  font-size: 3rem;
+  color: var(--very-dark-blue);
+}
+
+.bottom-stuff p {
+  font-size: 1.2rem;
+  color: var(--very-dark-blue);
+}
+
+.bottom-stuff button {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: var(--soft-red);
+  color: var(--off-white);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bottom-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 3rem;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0;
+}
 @media screen and (max-width: 768px) {
   .header {
     padding: 2rem 2rem;
